@@ -1,0 +1,133 @@
+img#logo{
+    height: 100px;
+    width: 100px;
+}
+
+aside#phone-status p{
+    font-size: 20px;
+}
+
+aside#phone-status img{
+    height: 18px;
+    width: 35px;
+    padding-left: 5px;
+}
+
+header p{
+    font-size: 30px;
+}
+
+header img{
+    padding-left: 10px; 
+    height: 25px;
+     width: 35px;
+}
+
+section#user img{
+    height: 80px;
+    width: 80px;
+    border-radius: 40%;
+}
+
+section#user p{
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+section#freinds li img{
+    height: 10px;
+    width: 20px;
+}
+
+section#freinds div img{
+    height: 65px;
+    width: 65px;
+    border-radius: 40%;
+}
+
+section#freinds div p{
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+aside#menu a img{
+    height: 25px;
+    width: 25px;
+}
+
+a{
+    text-decoration-line: none;
+}
+
+section#chattings img{
+    height: 65px;
+    width: 65px;
+    border-radius: 40%;
+}
+
+section#chattings a img{
+    grid-column: 1;
+    justify-self: center;
+}
+
+section#chattings a div{
+    grid-column: 2;
+}
+
+section#chattings a p{
+    grid-column: 3;
+}
+
+section#chattings a h3{
+    padding-bottom: 3px;
+    color: black;
+}
+
+section#chattings a p{
+    color: black;
+}
+
+section#chattings a br{
+    color:aliceblue;
+}
+
+main#chatting section img{
+    margin-top: 8px;
+    height: 50px;
+    width: 50px;
+    border-radius: 40%;
+    align-self: start;
+}
+
+main#chatting section p{
+    align-self: end;
+    padding-bottom: 10px;
+}
+
+main#chatting section div p{
+    font-size: 20px;
+}
+
+aside#menu img{
+    width: 25px;
+    height: 25px;
+}
+
+aside#menu input{
+    height: 40px;
+    width: 350px;
+    background-color: rgb(249,248,248);
+    border: none;
+}
+
+aside#menu div{
+    display: flex;
+    background-color: rgb(249,248,248);
+    border-radius: 15px;
+    height: 50px;
+    align-items: center;
+}
+
+aside#menu div img{
+    margin-right: 10px;
+}
