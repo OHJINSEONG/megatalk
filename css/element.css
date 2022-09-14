@@ -3,6 +3,13 @@ img#logo{
     width: 100px;
 }
 
+article p{
+    margin-top: 10px;
+    color: rgb(15,117,98);
+    font-size: 18px;
+    font-weight: bold;
+}
+
 aside#phone-status p{
     font-size: 20px;
 }
