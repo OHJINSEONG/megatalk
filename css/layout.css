@@ -1,0 +1,127 @@
+@media screen and (min-width: 500px){
+    main{
+        display: none;
+    }
+
+    article{
+        display: flex;
+        height: 100vh;
+        background-color: rgb(255,223,36);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }         
+}
+
+@media screen and (max-width: 500px){
+    article{
+        display: none;
+    }
+
+    main{
+        height: 680px;
+        display: flex;
+        flex-direction: column;
+    }
+}        
+
+main#chatting{
+    background-color: rgb(173,191,206);
+}
+
+aside#phone-status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+
+    margin-top: 10px;
+    padding: 10px 40px;
+}
+ 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 500px;
+
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+
+section#user{
+    display: flex;
+    width: 500px;
+    padding-left: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+
+section#freinds{
+    display: flex;
+    padding: 20px 20px;
+    width: auto;
+    flex-direction: column;
+}
+
+section#freinds li{
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section#freinds div{
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+    flex-direction: row;
+}
+
+aside#menu{
+    align-self: end;
+
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(239,239,239);
+}
+
+section#chattings{
+    display: flex;
+    flex-direction: column;
+}
+
+section#chattings a{
+    display: grid;
+    width: 500px;
+    grid-template-columns: 100px 1fr 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+main#chatting section#chattings div {
+    margin-left: 5px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+main#chatting section#chattings div p{
+    display: inline-block;
+    background-color: aliceblue;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+main#chatting section#chattings a{
+    display: flex;
+    padding-left: 10px;
+}
+
+main#chatting aside{
+    display: flex;
+    justify-content: space-between;
+}
